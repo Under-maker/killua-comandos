@@ -1,0 +1,25 @@
+.env.gelbooru
+
+# Arquivos que nao devem ir para o GitHub
+node_modules/
+*.backup*
+*.bak
+*.log
+auth/
+auth_info/
+auth_info_baileys/
+session/
+sessions/
+creds.json
+*.session
+*.qr
+*.png
+*.jpg
+
+# Dados locais e sessoes
+src/dados/
+src/personalizados/data/
+src/personalizados/events/
+src/sticker/
+src/tictactoe/
+*.owner-backup
